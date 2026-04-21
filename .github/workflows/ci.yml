@@ -18,7 +18,7 @@ jobs:
 
       - run: npm install
 
-      - run: echo "Skipping tests"
+      - run: npm test
 
       - name: Deploy to Azure
         uses: azure/webapps-deploy@v3
